@@ -1,0 +1,12 @@
+{
+    "MTS_MDOT_F405RG": {
+        "inherits": ["FAMILY_STM32"],
+        "core": "Cortex-M4F",
+        "extra_labels_add": ["STM32F4", "STM32F405RG"],
+        "is_disk_virtual": true,
+        "macros_add": ["HSE_VALUE=26000000"],
+        "device_has_add": ["ANALOGOUT", "MPU"],
+        "release_versions": ["2", "5"],
+        "device_name": "STM32F405RG"
+    }
+}
